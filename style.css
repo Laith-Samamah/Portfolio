@@ -67,7 +67,20 @@ margin-left: 25%;
         }
       }
       
+@media (max-width:850px) {
+    .Home img{
+        display: none;
+    }
+    .intro h1{
+        font-size: 3.5rem;
+    }
+    
+    .intro p{
+        font-size: 1.5rem;
+    
+    }
 
+}
 
 
 /* ***********about********** */
@@ -155,6 +168,27 @@ font-style: italic;
     grid-column: 1/3 ;
     grid-row: 5/7 ;
 }
+
+
+@media (max-width:850px) {
+    .About img{
+        display: none;
+    }
+    .me{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .me div{
+        width: 300px;
+    }
+    .about-text p{
+        font-size: large;
+    }
+
+
+}
  /* *********works************ */
 .Works img{
     width: 500px;
@@ -167,10 +201,36 @@ font-style: italic;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
-.Works{
-    /* margin-bottom: 1000px; */
+
+.cards{
+    display: flex;
+    gap: 200px;
+  margin: 50px 0px;
 }
+@media (max-width:850px) {
+    .Works .work-img{
+        display: none;
+    }
+    .Works h1{
+        font-size: 50px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+}
+
+.cards .card-img-top{
+    width: 100%;
+    height: 200px;
+}
+
+.card .btn{
+    background-color:#454F5F ;
+    color: white;
+    
+    }
 
 /* ******contact********** */
 .Contact{
@@ -190,3 +250,4 @@ font-size: 75px ;
     
     font-size: x-larges;
  }
+
