@@ -1,3 +1,5 @@
+https://laith-samamah.github.io/Portfolio/ <---------Live url--------->
+
 https://www.figma.com/file/xvCzJRJYrVM3fnnBkuWhIq/Portfolio?node-id=0%3A1 <---------Mockup link--------->
 # Portfolio![mock](https://user-images.githubusercontent.com/108793360/181936819-5945c42e-c0ec-42a2-9664-a21cc993395c.jpg)
 
